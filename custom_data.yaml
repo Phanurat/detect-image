@@ -1,0 +1,5 @@
+train: D:/project-ml/detect-image/model/train/images  # เส้นทางของภาพฝึก
+val: D:/project-ml/detect-image/model/val/images      # เส้นทางของภาพทดสอบ
+
+nc: 8  # จำนวนคลาส
+names: ['posts', '0', 'activity', 'content', 'header', 'left', 'right', 'topic']  # ชื่อของคลาส
